@@ -1,0 +1,72 @@
+<!doctype html>
+	<html>
+	<head>
+		<title>Sign Up Page</title>
+		<style>
+			html body {
+				background-repeat: no-repeat;
+				background-position: center;
+				background-attachment: fixed;
+				background-size: cover;
+			}
+			.user {
+				color: red;
+				font-size: 30px;
+				position: relative;
+				top: 35px;
+				left: 15px;
+			}
+			.input1 {
+				position: relative;
+				top: 35px;
+				left: 15px;
+			}
+			.pwd {
+				position: relative;
+				color: red;
+				font-size: 30px;
+				top: 100px;
+				right: 270px;
+			}
+			.input2 {
+				position: relative;
+				top: 100px;
+				right: 260px;
+			}
+			.retypepsw {
+				color: red;
+				position: relative;
+				top: 150px;
+				right: 568px;
+				font-size: 30px;
+			}
+			.input3 {
+				position: relative;
+				top: 150px;
+				right: 560px;
+			}
+			.comfirm {
+				position: relative;
+                top: 200px;
+                right: ;   
+			}
+		</style>
+	</head>
+	<body>
+		<script>
+			function open() {
+				document.getElementById("open").style.visibility = "hidden"
+			}
+		</script>
+		<form action="https://google.com">
+		<body background="./background.jpg">
+			<label class="user" for="uname"><b>UserName</b></label>
+			<input class="input1" type="uname" placeholder="Enter UserName" name="uname" required>
+			<label class="pwd" for="pwd"><b>Password</b></label>
+			<input class="input2" type="psw" placeholder="Enter Password" name="psw" required>
+			<label class="retypepsw" for="retypepsw"><b>Retype Password</b></label>
+			<input class="input3" type="retypepsw" placeholder="Retype Password" name="retypepwd" required>
+			<button type="submit" class="comfirm" onclick="open()" id="open"><img src="./signup.png"></button>
+		</form>
+	</body>
+	</html>
